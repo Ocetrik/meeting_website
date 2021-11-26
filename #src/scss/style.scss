@@ -1,0 +1,127 @@
+@import "null.scss";
+@import "fonts";
+
+@mixin font(){
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.wrapper{
+  max-width: 1920px;
+  z-index: 1;
+  margin: 0 auto;
+}
+.main{
+  min-height: 100%;
+  background: #230E2A;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.main__header {
+}
+@import "../components/header/header.scss";
+
+.main__content {
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-left: 14px;
+  margin-bottom: 210px;
+}
+
+@import url("../components/context/context.scss");
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__title{
+    font-family: 'RubikM';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+.main__form {
+  // max-width: 846px;
+  margin: 0 auto;
+  margin-top: 210px;
+}
+.form__text {
+  margin-top: 10px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.form__mail {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.form__password {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@import "../components/input/input.scss";
+
+.form__entry {
+  background: linear-gradient(90deg, #EE0979 0%, #FF6A00 100%);
+  box-shadow: 0px 20px 30px rgba(179, 34, 31, 0.2);
+  border-radius: 500px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 380px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.form__forgot {
+  margin-top: 20px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #925FA4;
+}
+.figure-left{
+  position: absolute;
+  //background: url("/img/main/orange.png");
+  // left: -156px;
+  left: -655px;
+  top: 186px;
+  height: 987px;
+  overflow: hidden;
+}
+.figure-right {
+  position: absolute;
+  top: 476px;
+  right: 0;
+  height: 697px;
+  overflow: hidden;
+  max-width: 506px;
+  z-index: 0;
+}
+
+@import "../components/footer/footer.scss"

@@ -1,0 +1,33 @@
+@function pixelToPercent($px, $screen:1920){
+   @return $px / $screen*100%;
+}
+
+.footer {
+   background: #230E2A;
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 150%;
+   color: #EEEEEE;
+   margin: 0 auto;
+   padding-bottom: 30px;
+ }
+//  .footer__wrapper{
+//    display: flex;
+//    justify-content: center;
+//  }
+ .footer__info {
+   display: flex;
+   gap: 30px;
+ }
+ .footer__policy {
+   margin-left: pixelToPercent(90);
+   width: 296px;
+ }
+ .footer__language {
+   margin-left: pixelToPercent(91);
+ }
+ .footer__year {
+   margin-left: pixelToPercent(108);
+ }

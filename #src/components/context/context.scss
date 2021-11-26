@@ -1,0 +1,43 @@
+.content__info {
+   display: flex;
+   justify-content: space-between;
+ }
+ .info__left {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+ }
+ .info__right {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+ }
+ 
+ .info__url {
+   @include font();
+ }
+ 
+ .logo__text {
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+   
+ }
+ .info__register {
+   padding: 11px 36px;
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   color: #FFFFFF;
+  // background: #230E2A;
+   border-radius: 500px;
+   //border: 1px solid #EE0979;
+   background: url("/img/main/reg.svg");
+ }

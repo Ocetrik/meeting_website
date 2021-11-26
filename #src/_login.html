@@ -1,0 +1,22 @@
+<div class="main">
+   @@include("components/header/header.html")
+      <div class="figure-left"><img src="img/main/orange.png" alt=""></div>
+      <div class="figure-right"><img src="img/main/pink.png" alt=""></div>
+            <div class="wrapper">
+               <div class="main__content">
+                  @@include("components/context/context.html")
+                  <div class="form main__form">
+                     <div class="form__title">Знакомства без преград</div>
+                     <div class="form__text">Для современного мира сплочённость команды профессионалов однозначно фиксирует необходимость системы обучения кадров, соответствующей насущным потребностям.</div>
+                     <form class="form__mail" action="#" method="get" enctype="multipart/form-data">
+                        <div class="input-wrapper input-wrapper--mail"><input class="" placeholder="Введите электронную почту" type="text" name="mail"></div>
+                     </form>
+                     <form class="form__password" action="#" method="get" enctype="multipart/form-data">
+                        <div class="input-wrapper input-wrapper--lock"><input class="" placeholder="Введите пароль" type="password" name="pass"></form></div>
+                     <button class="form__entry">Войти</button>
+                     <div class="form__forgot"><a href="#">Я не помню пароль</a></div>
+               </div>
+            </div>
+   @@include("components/footer/footer.html")
+</div>
+

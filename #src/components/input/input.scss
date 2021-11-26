@@ -1,0 +1,48 @@
+.input-wrapper{
+   position: relative;
+   input{
+     background: #42204E;
+     border-radius: 500px;
+     width: 380px;
+     height: 70px;
+     padding-left: 70px;
+     font-family: 'Rubik';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 150%;
+     color: #8B5D9A;
+   } 
+   @mixin psevdo(){
+     content: "";
+     position: absolute;
+     width: 20px;
+     height: 20px;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     background-size: contain;
+   }
+   &::before{
+     @include psevdo();
+     left: 31px;
+   }
+   &::after{
+     @include psevdo();
+     right: 30px;
+     cursor: pointer;
+   }
+   &--lock{
+     &::before{
+       background-image: url("/img/main/password.png");
+     }
+     &::after{
+       background-image: url("/img/main/eye.png");
+     }
+   }
+   &--mail{
+     &::before{
+       background-image: url("/img/main/mail.png");
+     }
+   }
+ }

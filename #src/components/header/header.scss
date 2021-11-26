@@ -1,0 +1,49 @@
+.header__container {
+   padding-top: 13px;
+   padding-bottom: 13px;
+   display: flex;
+   justify-content: center;
+   background: #1B0522;
+ }
+ .header__title {
+   font-family: 'RubikM';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 150%;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-right: 20px;
+ }
+ .header__logo {
+   margin-right: 10px;
+ }
+ .header__item {
+   font-family: 'Rubik';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #FFFFFF;
+   margin-right: 13px;
+ }
+ .header__chevron{
+   // span{
+   //   text-align: center;
+   //   margin: auto 0;
+   // }
+ }
+ .chevron::before {
+   // border-style: solid;
+   // border-width: 0.25em 0.25em 0 0;
+   // content: '';
+   // display: inline-block;
+   // height: 0.45em;
+   // left: 0.15em;
+   // position: relative;
+   // vertical-align: top;
+   // width: 0.45em;
+   // color: #ffffff;
+   // top: 7px;
+    // transform: rotate(135deg);
+ }
