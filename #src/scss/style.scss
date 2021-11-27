@@ -5,10 +5,11 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
 }
+
 .wrapper{
   max-width: 1920px;
   z-index: 1;
@@ -33,7 +34,7 @@
   margin-bottom: 210px;
 }
 
-@import url("../components/context/context.scss");
+@import "../components/context/context.scss";
 
 .form{
   display: flex;
@@ -103,25 +104,31 @@
   font-size: 14px;
   line-height: 150%;
   text-align: center;
-  color: #925FA4;
+  color: #8E5899;
 }
 .figure-left{
   position: absolute;
   //background: url("/img/main/orange.png");
   // left: -156px;
   left: -655px;
-  top: 186px;
+  top: 95px;
   height: 987px;
+  overflow: hidden;
+}
+.figure-center{
+  position: absolute;
+  left: 229px;
+  top: 200px;
   overflow: hidden;
 }
 .figure-right {
   position: absolute;
-  top: 476px;
+  top: 385px;
   right: 0;
   height: 697px;
   overflow: hidden;
-  max-width: 506px;
+  max-width: 517px;
   z-index: 0;
 }
 
-@import "../components/footer/footer.scss"
+@import "../components/footer/footer.scss";
