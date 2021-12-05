@@ -30,3 +30,11 @@
   background-image: url("/img/main/reg.svg");
   background-color: #230E2A;
 }
+
+@media screen and (max-width: 992px) {
+  .context-menu{
+    max-width: 375px;
+    flex-direction: column;
+  }
+}
+

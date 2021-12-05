@@ -28,3 +28,14 @@
  .footer__year {
   margin-left: pixelToPercent(177);
  }
+ @media screen and (max-width: 1200px) {
+  .footer__wrapper{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer__info{
+    display: none;
+  }
+ }
+ 
